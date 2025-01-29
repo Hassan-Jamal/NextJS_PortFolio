@@ -550,7 +550,7 @@ const Contact = () => {
               name="message"
               className="w-full px-4 py-3 mt-2 bg-gray-700 text-white rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
               placeholder="Write your message here"
-              rows="6"
+              rows={6}
               required
             ></textarea>
           </div>
