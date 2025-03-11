@@ -38,7 +38,7 @@ const Navbar = () => {
         <a href="#contact" className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:underline">
           Contact
         </a>
-        <a href="https://drive.google.com/uc?export=download&id=1ViMLgSCXqTtEfnQyp0nOlfwR61B8ScsM" download className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:underline">
+        <a href="https://drive.google.com/uc?export=download&id=1wCSwtzdOgRQJLj5V50TnNH7TZXtgwUbD" download className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:underline">
           Download Resume
         </a>
       </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
           <a href="#contact" onClick={toggleMobileMenu} className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:underline">
             Contact
           </a>
-          <a href="https://drive.google.com/uc?export=download&id=1ViMLgSCXqTtEfnQyp0nOlfwR61B8ScsM" download onClick={toggleMobileMenu} className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:underline">
+          <a href="https://drive.google.com/uc?export=download&id=1wCSwtzdOgRQJLj5V50TnNH7TZXtgwUbD" download onClick={toggleMobileMenu} className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:underline">
             Download Resume
           </a>
 
@@ -153,7 +153,7 @@ const Home = () => {
             Get in Touch
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1ViMLgSCXqTtEfnQyp0nOlfwR61B8ScsM"
+            href="https://drive.google.com/uc?export=download&id=1wCSwtzdOgRQJLj5V50TnNH7TZXtgwUbD"
             download
             className="px-8 py-3 text-lg font-semibold text-white bg-gradient-to-r from-green-400 to-blue-500 rounded-lg hover:bg-gradient-to-l"
           >
@@ -164,7 +164,7 @@ const Home = () => {
         {/* Extra Details */}
         <div className="mt-12 flex flex-col items-center space-y-4">
           <p className="text-lg max-w-3xl text-gray-300">
-            I'm a passionate Software Engineer specializing in MERN Stack development, Flutter, and AI technology. With a creative mindset and a knack for problem-solving, I strive to turn innovative ideas into reality.
+            I'm a passionate Software Engineer specializing in Full Stack development, Flutter, and AI technology. With a creative mindset and a knack for problem-solving, I strive to turn innovative ideas into reality.
           </p>
           <p className="text-lg max-w-3xl text-gray-300">
             I enjoy exploring new technologies and leveraging them to create impactful solutions. Whether it's building web applications, working with machine learning models, or crafting user-friendly interfaces, I aim to leave a mark of excellence.
@@ -263,7 +263,7 @@ const Skills = () => {
       <div className="absolute -z-10 w-72 h-72 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 blur-2xl opacity-40 bottom-10 right-1/3"></div>
 
       {/* Section Title */}
-      <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-center">
+      <h2 className="relative text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-fade">
         My Skills
       </h2>
 
@@ -388,7 +388,7 @@ const Projects = () => {
       <div className="absolute -z-10 w-72 h-72 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 blur-2xl opacity-40 bottom-10 right-1/3"></div>
 
       {/* Section Title */}
-      <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-center">
+      <h2 className="relative text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-fade">
         My Projects
       </h2>
 
@@ -420,57 +420,58 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Project 3 - Job Portal */}
-        <div className="p-8 bg-gray-800 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300 relative">
-          <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
-            Job Portal
+                {/* Project 3 - Bird Detection System in AI */}
+                <div className="p-8 bg-gray-800 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300 relative">
+          <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-yellow-600">
+            Bird Detection System in AI and ML
           </h3>
           <p className="mt-4 text-gray-300 text-lg">
-            A job portal web application where employers can post jobs and candidates can apply, built with React and Node.js for seamless performance.
+            An AI-powered system that detects and classifies different bird species using machine learning models.
           </p>
           <div className="mt-4 text-gray-400">
-            <span className="font-semibold">Tech Stack: </span>React, Node.js, Express.js, MongoDB, JWT Authentication
+            <span className="font-semibold">Tech Stack: </span>Python, TensorFlow, OpenCV, Deep Learning
           </div>
         </div>
 
-        {/* Project 4 - AI-Based Sentiment Analysis Tool */}
+        {/* Project 4 - Swag Shop: An E-commerce Site */}
         <div className="p-8 bg-gray-800 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300 relative">
           <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-indigo-600">
-            AI-Based Sentiment Analysis Tool
+            Swag Shop: An E-commerce Site
           </h3>
           <p className="mt-4 text-gray-300 text-lg">
-            A web app powered by Python and AI that analyzes social media posts for sentiment and provides insights into public opinion.
+            A full-stack e-commerce platform where users can browse, add to cart, and purchase products with secure payment integration.
           </p>
           <div className="mt-4 text-gray-400">
-            <span className="font-semibold">Tech Stack: </span>Python, Flask, TensorFlow, Natural Language Processing
+            <span className="font-semibold">Tech Stack: </span>React, Node.js, Express.js, MongoDB, Stripe API
           </div>
         </div>
 
-        {/* Project 5 - Personal Finance Tracker */}
+        {/* Project 5 - AI Image Generator in Next.js */}
         <div className="p-8 bg-gray-800 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300 relative">
           <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500">
-            Personal Finance Tracker
+            AI Image Generator
           </h3>
           <p className="mt-4 text-gray-300 text-lg">
-            A personal finance web app that allows users to track expenses, manage budgets, and visualize their financial status over time.
+            A Next.js application that generates AI-powered images based on user prompts using deep learning models.
           </p>
           <div className="mt-4 text-gray-400">
-            <span className="font-semibold">Tech Stack: </span>React, Node.js, MongoDB, Chart.js
+            <span className="font-semibold">Tech Stack: </span>Next.js, OpenAI API, Tailwind CSS, Vercel
           </div>
         </div>
 
-        {/* Project 6 - Movie Recommendation System */}
+        {/* Project 6 - React Calculator */}
         <div className="p-8 bg-gray-800 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300 relative">
           <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500">
-            Movie Recommendation System
+            React Calculator
           </h3>
           <p className="mt-4 text-gray-300 text-lg">
-            A recommendation system built using machine learning algorithms to suggest movies based on user preferences and ratings.
+            A simple yet functional calculator built using React, featuring basic arithmetic operations and a modern UI.
           </p>
           <div className="mt-4 text-gray-400">
-            <span className="font-semibold">Tech Stack: </span>Python, Flask, Scikit-learn, Movie API
+            <span className="font-semibold">Tech Stack: </span>React, JavaScript, CSS
           </div>
         </div>
+
       </div>
     </section>
   );
